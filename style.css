@@ -103,3 +103,14 @@ p {
     justify-content: space-evenly;
     font-size: 15px;
 }
+
+/* Style for the orange lines */
+.orange-line {
+    width: 20%;
+    /* Adjust the width as needed */
+    height: 2px;
+    /* Adjust the height as needed */
+    background-color: orange;
+    margin: 10px 0;
+    /* Adjust the margin to control the spacing between lines */
+}

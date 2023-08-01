@@ -1,0 +1,26 @@
+/* Set the container to be centered in the middle of the page */
+.line-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /* Adjust as needed for the height of the line */
+}
+
+/* Customize the HR tag with a small height, an orange color, and centered position */
+.orange-line {
+    width: 5%;
+    /* Adjust as needed for the width of the line */
+    height: 2px;
+    background-color: orange;
+    border: none;
+    /* Removes the default line */
+    margin: 0;
+    /* Remove default margin */
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}

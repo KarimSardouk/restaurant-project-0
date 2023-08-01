@@ -1,0 +1,68 @@
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: url(herob.jpg);
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.frstline{
+  display: flex;
+  padding: 10px 5px;
+}
+.first{
+  
+    color:white;
+    align-items: center;
+}
+table{
+    margin:70px 500px;
+     color:white;
+      align-items: center;
+      width: fit-content;
+}
+td{
+    padding:10px;
+}
+td:hover{
+    color: orange;
+}
+.second{
+    margin: 70px -300px;
+    background-color: orange;
+    color: white;
+    width:fit-content;
+
+}
+.scndline{
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 100px;
+    margin: 0px  ;
+}
+p{
+   font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.third{
+    border-color: white;
+    border-style: solid;
+    width: fit-content;
+    padding: 0px 20px;
+    margin: auto;
+}
+.secondhero{
+    display: flex;
+    margin: 25px 50px 50px 50px;
+    justify-content: space-between;
+}
+h3{
+    color: orange;
+}
+.eat p ,.sea p , .coffee p, .meat p{
+    color: gray;
+}

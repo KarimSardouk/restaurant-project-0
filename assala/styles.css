@@ -1,20 +1,20 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-.line-container {
+.aline-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
 }
-hr.orange-line {
+hr.aorange-line {
     width: 5%;
     height: 2px;
     background-color: orange;
     border: none;
     margin: 0;
 }
-.menu {
+.amenu {
     background-color: rgb(223, 218, 218);
 }
 h1{
@@ -24,7 +24,7 @@ h4 {
     color: orange;
     
  }
- .container {
+ .acontainer {
     display: flex;
     justify-content:space-between;
     margin:6px 60px;
@@ -32,10 +32,10 @@ h4 {
 
 }
 
-.column1,
-.column2, 
-.column3,
-.column4{
+.acolumn1,
+.acolumn2, 
+.acolumn3,
+.acolumn4{
     flex:1;
 }
 img{
@@ -64,10 +64,10 @@ img{
     h5{
         font-size: 0.75rem;
     }
-    .container{
+    .acontainer{
         width: 100%;
     }
-    .column1, .column2, .column3, .column4{
+    .acolumn1, .acolumn2, .acolumn3, .acolumn4{
         width: 100%;
         margin: 0;
     }
@@ -93,10 +93,10 @@ img{
         max-width: 100%;
         height: auto;
     }
-    .container{
+    .acontainer{
         width:90%;
     }
-    .column1, .column2, .column3, .column4{
+    .acolumn1, .acolumn2, .acolumn3, .acolumn4{
         width: 50%;
         margin: 0;
     }

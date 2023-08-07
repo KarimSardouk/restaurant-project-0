@@ -29,6 +29,7 @@ h4 {
     justify-content:space-between;
     margin:6px 60px;
     background-color: white;
+    align-content: center;
 
 }
 
@@ -38,9 +39,13 @@ h4 {
 .acolumn4{
     flex:1;
 }
+.aPictures{
+    border: 10px solid white;
+}
 img{
     height: 275px;
     width: 275px;
+    object-fit: cover;
 }
 
 /* Styles for screens smaller than 768px (phones) */

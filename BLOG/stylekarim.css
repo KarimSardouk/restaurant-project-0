@@ -9,10 +9,10 @@
 
 .column {
     display: flex;
+    justify-content: flex-start;
     flex-direction: column;
-    align-items: center;
     /* Center the items horizontally */
-    text-align: center;
+    text-align: left;
     /* Center the text inside the div */
 }
 
@@ -27,16 +27,34 @@
     justify-content: space-evenly;
 }
 
-.content {
+.content1 {
+    background-color: white;
     margin-top: 10px;
     /* Add some spacing between the image and the text */
     border: 2px solid white;
     /* Add a white border */
-    padding: 10px;
+    padding: 8px;
     /* Add padding for better appearance */
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
-.content button {
+.content2 {
+    background-color: white;
+    margin-top: 10px;
+    /* Add some spacing between the image and the text */
+    border: 2px solid white;
+    /* Add a white border */
+    padding: 8px;
+    /* Add padding for better appearance */
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+button {
     margin-top: 5px;
     background-color: orange;
     /* Set the button background color to orange */
@@ -51,14 +69,18 @@
 
 /* Optional: To style the paragraphs */
 .content p {
-    color: grey;
+    color: orange;
     font-size: 18px;
     /* Adjust the font size to make the text bigger */
+    display: flex;
+    justify-content: flex-start;
 }
 
 .content i {
     font-size: 24px;
     /* Adjust the font size to make the calendar icon bigger */
+    display: flex;
+    justify-content: flex-start;
 }
 
 h1 {
@@ -133,7 +155,7 @@ p {
 /* Style the parallelogram */
 .parallelogram {
     position: relative;
-    background-color: lightgrey;
+    background-color: rgb(246, 239, 239);
     /* Change the grey color to be lighter */
     padding: 200px 0;
     overflow: hidden;
@@ -184,6 +206,7 @@ p {
 }
 
 .date-text {
+    color: grey;
     text-align: justify;
     text-justify: inter-word;
 }

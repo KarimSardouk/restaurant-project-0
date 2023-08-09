@@ -1,68 +1,162 @@
-.hero{
-    height: 100%;
-    width: 100%;
-    background-image: url(herob.jpg);
+.herob {
+    height: 500px;
+    background-image: url(image0.jpeg);
     background-position: center;
+    background-size: cover;
     font-family: 'Montserrat', sans-serif;
 }
-.frstline{
-  display: flex;
-  padding: 10px 5px;
+
+.frstlineb {
+    display: flex;
+    padding: 10px 5px;
 }
-.first{
-  
-    color:white;
+
+.firstb {
+
+    color: white;
     align-items: center;
 }
-table{
-    margin:70px 500px;
-     color:white;
-      align-items: center;
-      width: fit-content;
+
+.tabb {
+    margin: 70px 500px;
+    color: white;
+    align-items: center;
+    width: fit-content;
 }
-td{
-    padding:10px;
+
+.tb {
+    padding: 10px;
 }
-td:hover{
+
+.tb:hover {
     color: orange;
 }
-.second{
+
+.secondb {
     margin: 70px -300px;
     background-color: orange;
     color: white;
-    width:fit-content;
-
+    width: fit-content;
+    padding: 0px 20px;
 }
-.scndline{
+
+.scndlineb {
     color: white;
     text-align: center;
 }
-h1{
+
+.hb {
     font-size: 100px;
-    margin: 0px  ;
+    margin: 0px;
 }
-p{
-   font-size: 20px;
+
+.pb {
+    font-size: 20px;
 }
-a{
+
+.ab {
     text-decoration: none;
     color: white;
 }
-.third{
+
+.third {
     border-color: white;
     border-style: solid;
     width: fit-content;
     padding: 0px 20px;
     margin: auto;
 }
-.secondhero{
+
+.secondherob {
     display: flex;
     margin: 25px 50px 50px 50px;
     justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 80px;
 }
-h3{
+
+.hb3 {
     color: orange;
 }
-.eat p ,.sea p , .coffee p, .meat p{
+
+.pb {
     color: gray;
+}
+
+.svgb {
+    border-radius: 50%;
+}
+
+.getb {
+    color: white;
+}
+
+.ulinlineb {
+    margin: 0;
+    padding: 10px 25px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: orange;
+}
+
+.dropdownb {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-contentb {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    color: #020225;
+    list-style: none;
+}
+
+.dropdownb:hover .dropdown-contentb {
+    display: block;
+}
+
+.dropdown-contentb li {
+    padding: 5px;
+    font-size: larger;
+}
+
+.contb {
+    padding-top: 25px;
+}
+
+.pppb {
+    font-size: 25px;
+}
+
+.apasta {
+    text-decoration: none;
+    color: #020225;
+}
+
+.svgb {
+    width: 30px;
+}
+
+.coffee-svg,
+.fish-svg,
+.plate-svg,
+.meat-svg {
+    width: fit-content;
+    border-radius: 50%;
+    background-color: orange;
+    padding: 15px;
+}
+
+.eat,
+.sea,
+.coffee,
+.meat {
+    padding-left: 5px;
 }

@@ -1,0 +1,347 @@
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="asubscribe">
+        <h4>Subscribe Newsletter</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="acontainer1">
+            <div class="acolumn1">
+                <div class="aemail"><br>
+                    <input type="text" name="Enter Email Adress" value="Enter Email Adress"><br>
+                </div>
+            </div>
+            <div class="acolumn2">
+                <div class="asub"><button>Subscribe</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="acontainer2">
+        <div class="acolumn1">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quam maiores beatae voluptates at,
+                expedita, optio eum ullam sapiente in sint iste voluptatibus.</p>
+            <div class="social-icons">
+                <a href="#" title="twitter">
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                </a>
+                <a href="#" title="facebook">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+                <a href="#" title="linkedin">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a href="#" title="instagram">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </div>
+
+        </div>
+        <div class="acolumn2">
+            <h4>Opening Hours</h4>
+            <h6>Sunday-Thursday</h6>
+            <p>5AM-10PM</p>
+            <h4>Contact Info</h4>
+            <h6>Adress:</h6>
+            <p>34 Street Name, City Name Here, United States</p>
+            <h6>Phone:</h6>
+            <p>+1 242 4942 290</p>
+            <h6>Email:</h6>
+            <p>info@yourdomain.com</p>
+        </div>
+        <div class="acolumn3">
+            <h4>Quick Links</h4>
+            <div class="aquick">
+                <ul>
+                    <li>About</li>
+                    <li>Terms of Use</li>
+                    <li>Disclainers</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="acopy">
+        <p>Copyright &COPY; 2023 All rights reserved</p>
+    </div>
+    <div class="areviews">
+        <div class="areview">
+            <div class="user">John Smith</div>
+            <div class="stars">★★★★★</div>
+            <div class="comment">This is a great product! I highly recommend it.</div>
+            <div class="date">August 9, 2023</div>
+        </div>
+        <div class="areview">
+            <div class="user">Jane Doe</div>
+            <div class="stars">★★★</div>
+            <div class="comment">It's an okay product. Could be better.</div>
+            <div class="date">August 8, 2023</div>
+        </div>
+    </div>
+    <div class="section">
+        <h4>Leave a Review</h4>
+        <form id="review-form">
+            <div class="acontainer3">
+                <div class="acolumna">
+                    <label for="review">Your Review:</label>
+                    <textarea id="review" class="review" name="review"></textarea>
+                </div>
+                <div class="acolumnb">
+                    <label for="author">Your Name:</label>
+                    <input type="text" id="author" class="author" name="author">
+                </div>
+                <div class="acolumnc">
+                    <input type="submit" value="Submit" class="submit">
+                </div>
+                <div class="acolumnc">
+                    <div id="reviews"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script>const form = document.getElementById('review-form');
+        const review = document.getElementById('review');
+        const author = document.getElementById('author');
+        const reviews = document.getElementById('reviews');
+
+        form.addEventListener('submit', (event) => {
+            event.preventDefault();
+            const reviewText = review.value;
+            const authorName = author.value;
+            const reviewElement = document.createElement('div');
+            reviewElement.innerHTML = `<strong>${authorName}:</strong> ${reviewText}`;
+            reviews.appendChild(reviewElement);
+            review.value = '';
+            author.value = '';
+        });</script>
+</body>
+
+</html>

@@ -37,4 +37,5 @@ h1 {
 .accordion-content {
     padding: 10px;
     display: none;
+    overflow: hidden; /* Hide any overflowing content */
 }

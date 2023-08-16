@@ -1,0 +1,2010 @@
+.herob {
+    height: 800px;
+    background-image: url(hero_2.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 90%);
+    margin-top: -20px;
+}
+
+.parallelogramk1 {
+    position: relative;
+    background-color: rgb(246, 239, 239);
+    /* Change the grey color to be lighter */
+    padding: 130px 0;
+    overflow: hidden;
+    transform: skewY(-6deg);
+    margin-top: -160px;
+    /* Apply a skew transformation to the parallelogram */
+}
+
+
+.frstlineb {
+
+    display: flex;
+
+    padding: 10px 5px;
+
+}
+
+
+
+.firstb {
+
+
+
+    color: white;
+
+    align-items: center;
+
+}
+
+
+
+.tabb {
+
+    margin: 70px 500px;
+
+    color: white;
+
+    align-items: center;
+
+    width: fit-content;
+
+}
+
+
+
+.tb {
+
+    padding: 10px;
+
+}
+
+
+
+.tb:hover {
+
+    color: orange;
+
+}
+
+
+
+.secondb {
+
+    margin: 70px -300px;
+
+    background-color: orange;
+
+    color: white;
+
+    width: fit-content;
+
+    padding: 0px 20px;
+
+}
+
+
+
+.scndlineb {
+
+    color: white;
+
+    text-align: center;
+
+}
+
+
+
+.jus {
+
+    padding-left: 400px;
+
+}
+
+
+
+.hb {
+
+    font-size: 100px;
+
+    margin: 0px;
+
+}
+
+
+
+.pb {
+
+    font-size: 20px;
+
+}
+
+
+
+.ab {
+
+    text-decoration: none;
+
+    color: white;
+
+}
+
+
+
+.third {
+
+    border-color: white;
+
+    border-style: solid;
+
+    width: fit-content;
+
+    padding: 0px 20px;
+
+    margin: auto;
+
+}
+
+
+
+.secondherob {
+
+    display: flex;
+
+    margin: 25px 50px 50px 50px;
+
+    justify-content: space-between;
+
+    padding-left: 40px;
+
+    padding-right: 80px;
+    transform: skewY(5deg);
+}
+
+
+
+.hb3 {
+
+    color: orange;
+
+}
+
+
+
+.pb {
+
+    color: gray;
+
+}
+
+
+
+.svgb {
+
+    border-radius: 50%;
+
+}
+
+
+
+.getb {
+
+    color: white;
+
+}
+
+
+
+.ulinlineb {
+
+    margin: 0;
+
+    padding: 10px 25px;
+
+    list-style: none;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    color: white;
+
+    background-color: orange;
+
+}
+
+
+
+.dropdownb {
+
+    position: relative;
+
+    display: inline-block;
+
+}
+
+
+
+.dropdown-contentb {
+
+    display: none;
+
+    position: absolute;
+
+    background-color: #f9f9f9;
+
+    min-width: 160px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+    padding: 12px 16px;
+
+    z-index: 1;
+
+    color: #020225;
+
+    list-style: none;
+
+}
+
+
+
+.dropdownb:hover .dropdown-contentb {
+
+    display: block;
+
+}
+
+
+
+.dropdown-contentb li {
+
+    padding: 5px;
+
+    font-size: larger;
+
+}
+
+
+
+.contb {
+
+    padding-top: 25px;
+
+}
+
+
+
+.pppb {
+
+    font-size: 25px;
+
+}
+
+
+
+.apasta {
+
+    text-decoration: none;
+
+    color: #020225;
+
+}
+
+
+
+.svgb {
+
+    width: 30px;
+
+}
+
+
+
+.coffee-svg,
+
+.fish-svg,
+
+.plate-svg,
+
+.meat-svg {
+
+    width: fit-content;
+
+    border-radius: 50%;
+
+    background-color: orange;
+
+    padding: 15px;
+
+}
+
+
+
+.eat,
+
+.sea,
+
+.coffee,
+
+.meat {
+
+    padding-left: 5px;
+
+}
+
+
+
+body {
+
+    font-family: Montserrat, sans-serif;
+
+}
+
+
+
+/* Set the container to be centered in the middle of the page */
+
+.line-container {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 200px;
+    transform: skewY(5deg);
+    /* Adjust as needed for the height of the line */
+
+}
+
+
+
+/* Customize the HR tag with a small height, an orange color, and centered position */
+
+
+hr.orange-line {
+
+    width: 5%;
+
+    /* Adjust as needed for the width of the line */
+
+    height: 2px;
+
+    background-color: orange;
+
+    border: none;
+
+    /* Removes the default line */
+
+    margin: 0;
+
+    /* Remove default margin */
+
+}
+
+
+
+h1 {
+
+    text-align: center;
+
+    margin-top: -80px;
+
+}
+
+
+
+.therestaurant-textk {
+
+    color: grey;
+
+    display: block;
+
+    padding-left: 400px;
+
+}
+
+
+
+/* Modify the existing styles to achieve the desired layout */
+
+.flex-containerk {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    /* Allow flex items to wrap */
+
+    justify-content: center;
+
+    /* Distribute items evenly along the main axis */
+
+    align-items: center;
+
+    /* Center items vertically */
+
+    padding: 20px;
+
+    /* Add spacing around the images */
+
+    text-align: center;
+
+    margin-top: 10px;
+
+}
+
+
+
+.flex-item {
+
+    height: auto;
+
+    width: auto;
+
+    /* Allow items to take up equal space */
+
+    margin: 10px;
+
+    /* Add spacing between items */
+
+}
+
+
+
+.item23 {
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex: 0.30;
+
+    /* Allow items 2 and 3 to take up equal space */
+
+    margin: 10px;
+
+    margin-bottom: 10px;
+
+    /* Add spacing between items */
+
+}
+
+
+
+.item23>div {
+
+    flex: 1;
+
+    /* Allow each item within item23 to take up equal space */
+
+}
+
+
+
+/* Additional styling for the images */
+
+.flex-item img,
+
+.item23 img {
+
+    max-width: 100%;
+
+    height: auto;
+
+    display: block;
+
+    margin: 0 auto;
+
+    /* Center images horizontally */
+
+}
+
+
+
+.item2 {
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.item3 {
+
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+.thidhero {
+
+    margin: 20px;
+
+}
+
+
+
+.specialmenu-line {
+
+    width: 5%;
+
+    height: 2px;
+
+    background-color: orange;
+
+    border: none;
+
+    margin-bottom: 30px;
+
+    align-content: center;
+
+}
+
+
+
+.specialmenu-heading {
+
+    text-align: center;
+
+    margin-top: -15px;
+
+
+
+}
+
+
+
+.specialmenus {
+
+    height: 500px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    /* Three equal columns */
+
+    grid-gap: 15px;
+
+}
+
+
+
+.organics {
+
+    background-image: url(special-menu1.jpg);
+
+}
+
+
+
+.baked {
+
+    background-image: url(special-menu2.jpg);
+
+}
+
+
+
+.spicy {
+
+    background-image: url(special-menu3.jpg);
+
+}
+
+
+
+.organics,
+
+.baked,
+
+.spicy {
+
+    background-size: cover;
+
+    filter: brightness(0.7);
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: white;
+
+}
+
+.parallelogramk {
+    position: relative;
+    background-color: rgb(246, 239, 239);
+    /* Change the grey color to be lighter */
+    padding: 200px 0;
+    overflow: hidden;
+    transform: skewY(-5deg);
+    /* Apply a skew transformation to the parallelogram */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.divofprice {
+
+    padding: 200px 0px 15px 200px;
+
+}
+
+
+
+.baked-content,
+
+.spicy-content {
+
+    padding-left: 100px;
+
+    font-size: 25px;
+
+}
+
+
+
+.organic-content {
+
+    padding-left: 30px;
+
+    font-size: 25px;
+
+}
+
+
+
+.organics-content {
+
+    padding-left: 10px;
+
+    font-size: 27px;
+
+    margin-top: -20px;
+
+}
+
+
+
+.price {
+
+    background-color: orange;
+
+    width: fit-content;
+
+    border-radius: 50%;
+
+    padding: 10px 15px 10px 15px;
+
+    color: white;
+
+}
+
+
+
+.aline-containers {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 50px;
+
+}
+
+
+
+.aorange-line {
+
+    width: 5%;
+
+    height: 2px;
+
+    background-color: orange;
+
+    border: none;
+
+    margin: 0;
+    transform: skewY(5deg);
+}
+
+
+
+.amenu {
+
+    background-color: rgb(246, 239, 239);
+    position: relative;
+
+    padding: 200px 0;
+
+    overflow: hidden;
+
+    padding: 80px;
+    transform: skewY(-5deg);
+}
+
+
+
+.ourmenu {
+
+    text-align: center;
+
+    margin-top: -15px;
+    transform: skewY(5deg);
+
+
+}
+
+
+
+.pricepic {
+
+    color: orange;
+
+    font-size: 30px;
+
+}
+
+
+
+.acontainer {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: 6px 60px;
+
+    background-color: white;
+
+    align-content: center;
+    transform: skewY(5deg);
+
+
+}
+
+
+
+.acolumn1,
+
+.acolumn2,
+
+.acolumn3,
+
+.acolumn4 {
+
+    flex: 1;
+
+}
+
+
+
+.aPictures {
+
+    border: 10px solid white;
+
+}
+
+
+
+.menuimga {
+
+    height: 275px;
+
+    width: 275px;
+
+    object-fit: cover;
+
+    margin: -10px;
+
+}
+
+
+
+.minititle {
+
+    font-size: 30px;
+
+}
+
+
+
+.acolumn1 .minititle,
+
+.acolumn1 p,
+
+.acolumn1 .pricepic {
+
+    margin-left: 10px;
+
+}
+
+
+
+.acolumn1 .menuimga,
+
+.acolumn3 .menuimga {
+
+    margin-top: -30px;
+
+}
+
+
+
+body {
+
+
+
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+
+
+/*HELLO!
+
+
+
+/* Set the container to be centered in the middle of the page */
+
+
+
+.line-container {
+
+
+
+    display: flex;
+
+
+
+    justify-content: center;
+
+
+
+    align-items: center;
+
+
+
+    height: 200px;
+
+
+
+    /* Adjust as needed for the height of the line */
+
+
+
+}
+
+
+
+
+
+
+
+/* Customize the HR tag with a small height, an orange color, and centered position */
+
+
+
+hr.orange-line {
+
+
+
+    width: 5%;
+
+
+
+    /* Adjust as needed for the width of the line */
+
+
+
+    height: 2px;
+
+
+
+    background-color: orange;
+
+
+
+    border: none;
+
+
+
+    /* Removes the default line */
+
+
+
+    margin: 0;
+
+
+
+    /* Remove default margin */
+
+
+
+}
+
+hr.orange-line {
+    width: 5%;
+    /* Adjust as needed for the width of the line */
+    height: 2px;
+    background-color: orange;
+    border: none;
+    /* Removes the default line */
+    margin: 0;
+    /* Remove default margin */
+}
+
+hr.testimonial-line {
+    width: 5%;
+    /* Adjust as needed for the width of the line */
+    height: 2px;
+    background-color: orange;
+    border: none;
+    /* Removes the default line */
+    margin: 0;
+    /* Remove default margin */
+    transform: skewY(-5deg);
+}
+
+hr.therestaurant-line {
+    width: 5%;
+    /* Adjust as needed for the width of the line */
+    height: 2px;
+    background-color: orange;
+    border: none;
+    /* Removes the default line */
+    margin: 0;
+    /* Remove default margin */
+    transform: skewY(-5deg);
+}
+
+hr.blog-line {
+    width: 5%;
+    /* Adjust as needed for the width of the line */
+    height: 2px;
+    background-color: orange;
+    border: none;
+    /* Removes the default line */
+    margin: 0;
+    /* Remove default margin */
+    
+}
+
+
+
+
+/* Center the "Testimonial" heading and remove default margin */
+
+
+
+h1 {
+
+
+
+    text-align: center;
+
+
+
+    margin: 0;
+
+
+
+    position: relative;
+
+
+
+    /* Set position to relative to enable vertical alignment */
+
+
+
+}
+
+
+
+
+
+
+
+/* Position the "Testimonial" heading over the orange line */
+
+
+
+h1 b {
+
+
+
+    background-color: white;
+
+
+
+    /* Add background color to create a box around the text */
+
+
+
+    padding: 0 10px;
+
+
+
+    /* Add padding to increase the space around the text */
+
+
+
+    position: absolute;
+
+
+
+    top: -85px;
+
+
+
+    /* Adjust as needed to move the heading closer to the line */
+
+
+
+    left: 50%;
+
+
+
+    transform: translateX(-50%);
+
+
+
+    /* Center the heading horizontally */
+
+
+
+}
+
+
+
+
+
+
+
+p {
+
+
+
+    text-align: center;
+
+
+
+    display: flex;
+
+
+
+    flex-wrap: nowrap;
+
+
+
+}
+
+
+
+
+
+
+
+.grey {
+
+
+
+    color: grey;
+
+
+
+    margin-bottom: 60px;
+
+
+
+    padding: 5px;
+
+
+
+}
+
+
+
+
+
+
+
+.mike {
+
+
+
+    margin-left: 10px;
+
+
+
+    margin-right: 110px;
+
+
+
+    margin-top: -10px;
+
+
+
+}
+
+
+
+.grey1 {
+
+
+
+    color: grey;
+
+
+
+    margin-bottom: 60px;
+
+
+
+    margin-right: 79px;
+
+
+
+    display: flex;
+
+
+
+    justify-content: flex-start;
+
+
+
+}
+
+
+
+
+
+
+
+.testimonial-content {
+
+
+
+    align-items: center;
+
+
+
+    justify-content: center;
+
+
+
+    flex-wrap: nowrap;
+
+
+
+}
+
+
+
+
+
+
+
+.testimonial-text {
+
+    padding-left: 400px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.chef-image {
+
+
+
+    object-fit: unset;
+
+
+
+    float: left;
+
+
+
+    border-radius: 50%;
+
+
+
+    width: 90px;
+
+
+
+    /* Adjust the width and height as needed */
+
+
+
+    height: 90px;
+
+
+
+    /* Additional styles for positioning */
+
+
+
+    margin-top: 20px;
+
+
+
+    margin-left: -150px;
+
+
+
+    margin-right: 90px;
+
+
+
+    margin-bottom: 80px;
+
+
+
+    margin-top: -10px;
+
+
+
+}
+
+
+
+
+
+
+
+.flex-container {
+
+    display: flex;
+
+
+
+    flex-wrap: nowrap;
+
+
+
+    /* Change to 'wrap' to allow the items to wrap to the next line */
+
+
+
+    justify-content: center;
+
+
+
+    /* Center the items horizontally */
+
+
+
+    align-items: center;
+
+
+
+    /* Center the items vertically */
+
+
+
+}
+
+
+
+
+
+
+
+.flex-container>div1 {
+
+
+
+    flex-direction: column;
+
+
+
+    display: flex;
+
+
+
+    flex-wrap: nowrap;
+
+
+
+    height: auto;
+
+
+
+    width: auto;
+
+
+
+    text-align: center;
+
+
+
+    line-height: 60px;
+
+
+
+    justify-content: space-evenly;
+
+
+
+    font-size: 15px;
+
+
+
+}
+
+
+
+
+
+
+
+/* Style for the orange lines */
+
+
+
+.orange-line {
+
+
+
+    width: 20%;
+
+
+
+    /* Adjust the width as needed */
+
+
+
+    height: 2px;
+
+
+
+    /* Adjust the height as needed */
+
+
+
+    background-color: orange;
+
+
+
+    margin: 10px 0;
+
+
+
+    /* Adjust the margin to control the spacing between lines */
+
+
+
+}
+
+
+
+
+
+
+
+.div1 {
+
+
+
+    display: flex;
+
+
+
+    flex-direction: column;
+
+
+
+    align-items: flex-end;
+
+
+
+    margin: -50px;
+
+
+
+}
+
+
+
+
+
+
+
+/* Remove the justify-content property from the div1 element */
+
+
+
+.div1>.mike {
+
+
+
+    margin-bottom: -10px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blogk b {
+    background-color: rgb(246, 239, 239);
+
+}
+
+
+
+
+
+
+.blogk {
+    background-color: rgb(246, 239, 239);
+    text-align: center;
+    transform: skewY(5deg);
+}
+
+
+
+.rowk {
+
+    display: flex;
+
+    flex-direction: row;
+
+    margin-left: 10px;
+
+    margin-right: 10px;
+
+    justify-content: center;
+
+    column-gap: 20px;
+    transform: skewY(5deg);
+}
+
+
+
+.columnk {
+
+    display: flex;
+
+    justify-content: flex-start;
+
+    flex-direction: column;
+
+    /* Center the items horizontally */
+
+    text-align: left;
+
+    /* Center the text inside the div */
+
+}
+
+
+
+.imagek {
+
+    height: 250px;
+
+    /* Adjust the height to make the images bigger */
+
+    width: 100%;
+
+    /* Adjust the width to make the images bigger */
+
+    margin: 5px;
+
+    /* To give some spacing around the images */
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+}
+
+
+
+.content1k,
+
+.content2k {
+
+    background-color: white;
+
+    margin-top: 10px;
+
+    /* Add some spacing between the image and the text */
+
+    border: 2px solid white;
+
+    /* Add a white border */
+
+    padding: 8px;
+
+    /* Add padding for better appearance */
+
+    margin-bottom: 20px;
+
+    margin-right: 20px;
+
+    margin-left: 20px;
+
+}
+
+
+
+.buttonk {
+
+    background-color: orange;
+
+    color: white;
+
+    padding: 10px 20px;
+
+    border-color: orange;
+
+}
+
+
+.A-Footer {
+
+    padding-top: 10%;
+
+}
+
+
+
+.A-Second-Container {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 50px;
+
+}
+
+
+
+.A-AboutUs-Container {
+
+    max-width: 300px;
+
+    padding: 5%;
+
+    margin-top: -150px;
+
+}
+
+
+
+.A-Contactinfo-Container p {
+
+    padding-bottom: 5%;
+
+}
+
+
+
+.A-Opening-Container p {
+
+    padding-bottom: 10%;
+
+}
+
+
+
+.A-AboutUs-Container p {
+
+    padding-bottom: 50px;
+
+
+
+}
+
+
+
+
+
+.A-Quick-Container {
+
+    padding: 5%;
+
+    margin-top: -270px;
+
+
+
+}
+
+
+
+.A-Quick-Container a {
+
+    display: list-item;
+
+    list-style: none;
+
+    padding-bottom: 10%;
+
+    color: orange;
+
+    text-decoration: none;
+
+}
+
+
+
+
+
+.A-Subscribe {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 50px 50px 20px 50px;
+
+
+
+
+
+}
+
+
+
+.A-Subscribe p {
+
+    justify-content: center;
+
+    max-width: 550px;
+
+}
+
+
+
+.A-Form {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+
+#A-email {
+
+    width: 350px;
+
+    height: 40px;
+
+    margin-right: 10px;
+
+    filter: grayscale(100%);
+
+}
+
+
+
+#A-button {
+
+    width: 170px;
+
+    height: 36px;
+
+    background-color: orange;
+
+    color: rgb(250, 250, 250);
+
+    border: none;
+
+
+
+
+
+}
+
+
+
+#about-us-p {
+
+    color: grey;
+
+}
+
+
+
+
+
+.grey {
+
+    margin-top: -30px;
+
+    color: grey;
+
+}
+
+
+
+.A-Copy-Rights {
+
+    display: flex;
+
+    padding-top: 80px;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+
+}
+
+
+
+.A-imgs {
+
+    width: 20px;
+
+    height: 20px;
+
+    padding: 5px;
+
+
+
+}
+
+
+
+
+
+@media (max-width: 500px) {
+
+    #A-email {
+
+        width: 300px;
+
+        height: 30px;
+
+        margin-right: 10px;
+
+
+
+    }
+
+
+
+    #A-button {
+
+        width: 100px;
+
+        height: 36px;
+
+        background-color: orange;
+
+        color: rgb(250, 250, 250);
+
+        border: none;
+
+
+
+
+
+    }
+
+
+
+    .A-Second-Container {
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        justify-content: center;
+
+        padding: 50px;
+
+    }
+
+
+
+
+
+    .A-AboutUs-Container {
+
+        max-width: 350px;
+
+        text-align: center;
+
+    }
+
+
+
+    .A-imgs {
+
+        width: 20px;
+
+        height: 20px;
+
+        padding: 5px;
+
+
+
+
+
+    }
+
+
+
+    .A-Opening-Contact-Container {
+
+        display: flex;
+
+        padding: 10%;
+
+        justify-content: center;
+
+
+
+
+
+    }
+
+
+
+    .A-images {
+
+        padding-top: -20%;
+
+    }
+
+
+
+    .A-Opening-Container {
+
+        padding-left: 20%;
+
+    }
+
+
+
+    .A-Contactinfo-Container {
+
+        padding-left: 20%;
+
+    }
+
+
+
+    .A-Quick-Container a {
+
+        display: inline;
+
+        padding: 5px;
+
+    }
+
+
+
+    .A-Quick-Container {
+
+        padding-top: 10%;
+
+    }
+
+
+
+    .A-Copy-Rights {
+
+        display: flex;
+
+        padding-top: 5px;
+
+        align-items: center;
+
+        justify-content: center;
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+}

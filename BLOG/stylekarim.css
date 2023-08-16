@@ -98,12 +98,12 @@ h1 {
 }
 
 /* Customize the HR tag with a small height, an orange color, and centered position */
-hr.orange-linek {
+hr.orange-line {
     width: 5%;
     /* Adjust as needed for the width of the line */
     height: 2px;
     /* Adjust as needed for the height of the line */
-    background-color: orange;
+    /*background-color: orange;
     border: none;
     /* Removes the default line */
     position: fixed;
@@ -121,8 +121,9 @@ hr.orange-linek {
     transform: skewY(10deg);
     width: 50px;
     background-color: orange;
-    padding: 0.3px;
+    padding: 0.5px;
     margin-top: 10px;
+    color:orange;
 }
 
 /* Style for the orange lines */

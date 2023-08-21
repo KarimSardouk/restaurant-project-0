@@ -1,0 +1,1493 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+}
+
+.herob {
+  height: 600px;
+  background-image: url(image0.jpeg);
+  background-position: center;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 90%);
+  margin-top: -20px;
+}
+
+.frstlineb {
+  display: flex;
+  padding: 10px 5px;
+}
+
+.firstb {
+
+  color: white;
+  align-items: center;
+}
+
+.tabb {
+  margin: 70px 500px;
+  color: white;
+  align-items: center;
+  width: fit-content;
+}
+
+.tb {
+  padding: 10px;
+}
+
+.tb:hover {
+  color: orange;
+}
+
+.secondb button {
+  margin: 60px -300px;
+  background-color: orange;
+  color: white;
+  width: fit-content;
+  height: 55px;
+  padding: 0px 20px;
+  text-align: center;
+  margin-top: 90px;
+
+}
+
+.scndlineb {
+  color: white;
+  text-align: center;
+}
+
+.hb {
+  font-size: 100px;
+  margin: 0px;
+  margin-top: -20px;
+}
+
+.pb {
+  font-size: 20px;
+}
+
+.ab {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.loc {
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.resto {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.line-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+hr.orange-line {
+  width: 5%;
+  height: 2px;
+  background-color: orange;
+  border: none;
+  margin: 0;
+}
+
+.therestaurant-textk {
+  color: grey;
+  display: block;
+  text-align: center;
+}
+
+.flex-containerk {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.flex-item {
+  height: auto;
+  width: auto;
+  margin: 10px;
+}
+
+.item23 {
+  display: flex;
+  flex-direction: column;
+  flex: 0.30;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+.item23>div {
+  flex: 1;
+}
+
+.flex-item img,
+.item23 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.item2 {
+  margin-bottom: 10px;
+}
+
+.item3 {
+  margin-top: 10px;
+}
+
+.chefs {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.aline-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+hr.aorange-line {
+  width: 15%;
+  height: 2px;
+  background-color: orange;
+  border: none;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  margin: 6px 60px;
+  background-color: white;
+  align-content: center;
+
+}
+
+.column1,
+.column2,
+.column3 {
+  flex: 1;
+  align-items: center;
+  border: whitesmoke;
+}
+
+.asubscribe {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.acontainer1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 300px;
+  margin-top: -15px;
+
+}
+
+input {
+  width: 100%;
+  height: 37px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin-top: -5px;
+}
+
+.acontainer2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 200px;
+
+}
+
+.jus a {
+  color: white;
+}
+
+.acolumn1,
+.acolumn2,
+.acolumn3 {
+  flex: 1;
+}
+
+.acolumn2 p {
+  margin-top: 10px;
+}
+
+.acolumn2 h6 {
+  margin-top: -5px;
+  color: rgb(61, 61, 61);
+}
+
+button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.acopy {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+
+.afa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.asub {
+  margin-top: 18px;
+}
+
+.aquick ul {
+  list-style-type: none;
+  padding: 2px;
+  color: orange;
+  margin-top: -18px;
+
+}
+
+.aquick li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.social-icons {
+  padding: 10px;
+}
+
+.social-icons a {
+  color: orange;
+  line-height: 10px;
+  font-size: 10px;
+  margin: 0 5px;
+  text-decoration: none;
+
+}
+
+.social-icons a i {
+  line-height: 10px;
+  font-size: 16px;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+
+.social-icons a:hover i {
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  body {
+    font-family: Montserrat, sans-serif;
+  }
+
+  #map {
+    width: 100%;
+    height: 400px;
+  }
+
+  .herob {
+    height: 550px;
+    background-image: url(image0.jpeg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 90%);
+    margin-top: -20px;
+  }
+
+  .frstlineb {
+    display: flex;
+    padding: 1px 1px;
+  }
+
+  .firstb {
+
+    color: white;
+    align-items: center;
+  }
+
+  .tabb {
+    margin: 40px 100px;
+    color: white;
+    align-items: center;
+    width: fit-content;
+  }
+
+  .tb {
+    padding: 15px;
+  }
+
+  .tb:hover {
+    color: orange;
+  }
+
+  .secondb button {
+    margin: 6px -15px;
+    background-color: orange;
+    color: white;
+    width: fit-content;
+    height: 55px;
+    padding: 0px 15px;
+    text-align: center;
+    margin-top: 60px;
+
+  }
+
+  .scndlineb {
+    color: white;
+    text-align: center;
+  }
+
+  .hb {
+    font-size: 90px;
+    margin: 0px;
+    margin-top: 20px;
+  }
+
+  .pb {
+    font-size: 30px;
+  }
+
+  .jus {
+    margin-top: 45px;
+  }
+
+  .ab {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+
+  .loc {
+    text-align: center;
+    margin-top: 20px;
+
+  }
+
+  .resto {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .line-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+
+  hr.orange-line {
+    width: 5%;
+    height: 2px;
+    background-color: orange;
+    border: none;
+    margin: 0;
+  }
+
+  .therestaurant-textk {
+    color: grey;
+    display: block;
+    text-align: center;
+  }
+
+  .flex-containerk {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    /* Allow flex items to wrap */
+
+    justify-content: center;
+
+    /* Distribute items evenly along the main axis */
+
+    align-items: center;
+
+    /* Center items vertically */
+
+    padding: 85px;
+
+    /* Add spacing around the images */
+
+    text-align: center;
+
+    margin-top: 20px;
+
+  }
+
+
+  .item23 {
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex: 0.6;
+
+    /* Allow items 2 and 3 to take up equal space */
+
+    margin: 10px;
+
+    margin-bottom: 2px;
+
+    /* Add spacing between items */
+
+  }
+
+  .flex-item img,
+
+  .item23 img {
+
+    max-width: 100%;
+
+    height: auto;
+
+    display: block;
+
+    margin: 0 auto;
+
+    /* Center images horizontally */
+
+  }
+
+
+
+  .item2 {
+
+    margin-bottom: 5px;
+
+  }
+
+
+
+  .item3 {
+
+    margin-top: 15px;
+
+  }
+
+  .item1 {
+    width: 200px;
+  }
+
+  .item4 {
+    width: 200px;
+  }
+
+  .thidhero {
+
+    margin: 15px;
+
+  }
+
+  .chefs {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .chef2 {
+    width: 200px;
+  }
+
+  .chef3 {
+    width: 200px;
+  }
+
+  .chef1 {
+    width: 200px;
+  }
+
+  .container h5,
+  p {
+    font-size: 20px;
+  }
+
+  .aline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+
+  hr.aorange-line {
+    width: 15%;
+    height: 2px;
+    background-color: orange;
+    border: none;
+    margin: 0;
+  }
+
+  .container {
+    display: flex;
+    margin: 6px 60px;
+    background-color: white;
+    align-content: center;
+
+  }
+
+  .column1,
+  .column2,
+  .column3 {
+    flex: 1;
+    align-items: center;
+    border: whitesmoke;
+  }
+
+  .asubscribe {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -6px;
+  }
+
+  .acontainer1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 100px;
+    margin-top: -15px;
+
+  }
+
+  input {
+    width: 100%;
+    height: 40px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin-top: -5px;
+  }
+
+  .loaa {
+    display: flex;
+    text-align: center;
+  }
+
+  .acontainer2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+
+  }
+
+  .acolumn1,
+  .acolumn2,
+  .acolumn3 {
+    flex: 1;
+  }
+
+
+
+  button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .acopy {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 60px;
+  }
+
+  .afa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .aquick ul {
+    list-style-type: none;
+    padding: 2px;
+    color: orange;
+    margin-top: -10px;
+
+  }
+
+  .social-icons {
+    padding: 20px;
+  }
+
+  .social-icons a {
+    color: orange;
+    line-height: 20px;
+    font-size: 25px;
+    margin: 0 5px;
+    text-decoration: none;
+
+  }
+
+  .social-icons a i {
+    line-height: 10px;
+    font-size: 20px;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+  }
+
+  .social-icons a:hover i {
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+  }
+
+}
+
+
+
+@media screen and (min-width: 360px)and (max-width:700px) {
+  body {
+    font-family: Montserrat, sans-serif;
+  }
+
+  #map {
+    width: 100%;
+    height: 400px;
+  }
+
+
+  .herob {
+    height: 650px;
+    background-image: url(image0.jpeg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 90%);
+    margin-top: -20px;
+  }
+
+  .frstlineb {
+    display: flex;
+    padding: 1px 1px;
+  }
+
+  .firstb {
+
+    color: white;
+    align-items: center;
+  }
+
+  .tabb {
+    margin: 40px 1px;
+    color: white;
+    align-items: center;
+    width: fit-content;
+  }
+
+  .tb {
+    padding: 5px;
+    font-size: 13px;
+  }
+
+  .tb:hover {
+    color: orange;
+  }
+
+  .secondb button {
+    margin: 6px -1px;
+    background-color: orange;
+    color: white;
+    width: fit-content;
+    height: 40px;
+    padding: 0px 15px;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 13px;
+
+  }
+
+  .scndlineb {
+    color: white;
+    text-align: center;
+  }
+
+  .hb {
+    font-size: 50px;
+    margin: 0px;
+    margin-top: 20px;
+  }
+
+  .pb {
+    font-size: 30px;
+  }
+
+  .jus {
+    margin-top: 85px;
+  }
+
+  .ab {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+
+  .loc {
+    text-align: center;
+    margin-top: 20px;
+
+  }
+
+  .resto {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .line-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+
+  hr.orange-line {
+    width: 5%;
+    height: 2px;
+    background-color: orange;
+    border: none;
+    margin: 0;
+  }
+
+  .therestaurant-textk {
+    color: grey;
+    display: block;
+    text-align: center;
+  }
+
+  .flex-containerk {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    /* Allow flex items to wrap */
+
+    justify-content: center;
+
+    /* Distribute items evenly along the main axis */
+
+    align-items: center;
+
+    /* Center items vertically */
+
+    padding: 85px;
+
+    /* Add spacing around the images */
+
+    text-align: center;
+
+    margin-top: 20px;
+
+  }
+
+  .item23 {
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex: 0.6;
+
+    /* Allow items 2 and 3 to take up equal space */
+
+    margin: 10px;
+
+    margin-bottom: 2px;
+
+    /* Add spacing between items */
+
+  }
+
+  .flex-item img,
+
+  .item23 img {
+
+    max-width: 100%;
+
+    height: auto;
+
+    display: block;
+
+    margin: 0 auto;
+
+    /* Center images horizontally */
+
+  }
+
+
+
+  .item2 {
+
+    margin-bottom: 1px;
+
+  }
+
+
+
+  .item3 {
+
+    margin-top: 1px;
+
+  }
+
+  .item1 {
+    width: 100px;
+  }
+
+  .item4 {
+    width: 100px;
+  }
+
+  .chefs {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .chef2 {
+    width: 130px;
+  }
+
+  .chef3 {
+    width: 130px;
+  }
+
+  .chef1 {
+    width: 130px;
+  }
+
+  .container h5,
+  p {
+    font-size: 18px;
+  }
+
+
+  .aline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+
+  hr.aorange-line {
+    width: 15%;
+    height: 2px;
+    background-color: orange;
+    border: none;
+    margin: 0;
+  }
+
+  .container {
+    display: flex;
+    margin: 6px 60px;
+    background-color: white;
+    align-content: center;
+
+  }
+
+  .column1,
+  .column2,
+  .column3 {
+    flex: 1;
+    align-items: center;
+    border: whitesmoke;
+  }
+
+  .asubscribe {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -6px;
+  }
+
+  .acontainer1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    margin-top: -15px;
+
+  }
+
+  input {
+    width: 100%;
+    height: 40px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin-top: -5px;
+  }
+
+  .loaa {
+    display: flex;
+    text-align: center;
+  }
+
+  .acontainer2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+
+  }
+
+  .acolumn1,
+  .acolumn2,
+  .acolumn3 {
+    flex: 1;
+    font-size: 14px;
+  }
+
+
+
+  button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .acopy {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 6px;
+  }
+
+  .afa {
+    padding: 2px;
+    font-size: px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .aquick ul {
+    list-style-type: none;
+    padding: 2px;
+    color: orange;
+    margin-top: -5px;
+
+  }
+
+  .social-icons {
+    padding: 1px;
+  }
+
+  .social-icons a {
+    color: orange;
+    line-height: 20px;
+    font-size: 2px;
+    margin: 0 2px;
+    text-decoration: none;
+
+  }
+
+  .social-icons a i {
+    line-height: 15px;
+    font-size: 15px;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+  }
+
+  .social-icons a:hover i {
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+  }
+
+
+}
+
+
+
+@media screen and (min-width: 768px)and (max-width:1114px) {
+  body {
+    font-family: Montserrat, sans-serif;
+  }
+
+  #map {
+    width: 100%;
+    height: 400px;
+  }
+
+  .herob {
+    height: 550px;
+    background-image: url(image0.jpeg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 90%);
+    margin-top: -20px;
+  }
+
+  .frstlineb {
+    display: flex;
+    padding: 1px 1px;
+  }
+
+  .firstb {
+
+    color: white;
+    align-items: center;
+  }
+
+  .tabb {
+    margin: 40px 100px;
+    color: white;
+    align-items: center;
+    width: fit-content;
+  }
+
+  .tb {
+    padding: 15px;
+  }
+
+  .tb:hover {
+    color: orange;
+  }
+
+  .secondb button {
+    margin: 6px -15px;
+    background-color: orange;
+    color: white;
+    width: fit-content;
+    height: 55px;
+    padding: 0px 15px;
+    text-align: center;
+    margin-top: 60px;
+
+  }
+
+  .scndlineb {
+    color: white;
+    text-align: center;
+  }
+
+  .hb {
+    font-size: 90px;
+    margin: 0px;
+    margin-top: 20px;
+  }
+
+  .pb {
+    font-size: 30px;
+  }
+
+  .jus {
+    margin-top: 45px;
+  }
+
+  .ab {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+
+  .loc {
+    text-align: center;
+    margin-top: 20px;
+
+  }
+
+  .resto {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .line-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+
+  hr.orange-line {
+    width: 5%;
+    height: 2px;
+    background-color: orange;
+    border: none;
+    margin: 0;
+  }
+
+  .therestaurant-textk {
+    color: grey;
+    display: block;
+    text-align: center;
+  }
+
+  .flex-containerk {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    /* Allow flex items to wrap */
+
+    justify-content: center;
+
+    /* Distribute items evenly along the main axis */
+
+    align-items: center;
+
+    /* Center items vertically */
+
+    padding: 35px;
+
+    /* Add spacing around the images */
+
+    text-align: center;
+
+    margin-top: 25px;
+
+  }
+
+
+  .item23 {
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex: 0.8;
+
+    /* Allow items 2 and 3 to take up equal space */
+
+    margin: 5px;
+
+    margin-bottom: 2px;
+
+    /* Add spacing between items */
+
+  }
+
+  .flex-item img,
+
+  .item23 img {
+
+    max-width: 150%;
+
+    height: 70;
+
+    display: block;
+
+    margin: 0 auto;
+
+    /* Center images horizontally */
+
+  }
+
+
+
+  .item2 {
+
+    margin-bottom: 15px;
+
+  }
+
+
+
+  .item3 {
+
+    margin-top: 18px;
+
+  }
+
+  .item1 {
+    width: 250px;
+
+  }
+
+  .item4 {
+    width: 250px;
+
+
+  }
+
+  .thidhero {
+
+    margin: 15px;
+
+  }
+
+  .chefs {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .chef2 {
+    width: 200px;
+  }
+
+  .chef3 {
+    width: 200px;
+  }
+
+  .chef1 {
+    width: 200px;
+  }
+
+  .container h5,
+  p {
+    font-size: 20px;
+  }
+
+  .aline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+
+  hr.aorange-line {
+    width: 15%;
+    height: 2px;
+    background-color: orange;
+    border: none;
+    margin: 0;
+  }
+
+  .container {
+    display: flex;
+    margin: 6px 60px;
+    background-color: white;
+    align-content: center;
+
+  }
+
+  .column1,
+  .column2,
+  .column3 {
+    flex: 1;
+    align-items: center;
+    border: whitesmoke;
+  }
+
+  .asubscribe {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 55px;
+  }
+
+  .acontainer1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 25px;
+    margin-top: -15px;
+
+  }
+
+  input {
+    width: 100%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin-top: -5px;
+    font-size: 20px;
+  }
+
+  .loaa {
+    display: flex;
+    text-align: center;
+  }
+
+  .acontainer2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+
+  }
+
+  .acolumn1,
+  .acolumn2,
+  .acolumn3 {
+    flex: 1;
+    font-size: 20px;
+  }
+
+
+
+  button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .acopy {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 90px;
+    font-size: 20px;
+  }
+
+  .afa {
+    padding: 2px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .aquick ul {
+    list-style-type: none;
+    padding: 2px;
+    color: orange;
+    margin-top: -5px;
+
+  }
+
+  .social-icons {
+    padding: 25px;
+  }
+
+  .social-icons a {
+    color: orange;
+    line-height: 20px;
+    font-size: 55px;
+    margin: 0 2px;
+    text-decoration: none;
+
+  }
+
+  .social-icons a i {
+    line-height: 15px;
+    font-size: 35px;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+  }
+
+  .social-icons a:hover i {
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+  }
+
+}

@@ -769,11 +769,14 @@ h1 {
     background-color: rgb(246, 239, 239);
     position: relative;
 
-    padding: 200px 0;
+    padding: 200px 200px;
 
     overflow: hidden;
 
-    padding: 80px;
+    
+
+
+    
     transform: skewY(-5deg);
 }
 
@@ -782,7 +785,7 @@ h1 {
 .ourmenu {
 
     text-align: center;
-
+    
     margin-top: -15px;
     transform: skewY(5deg);
 
@@ -1862,7 +1865,7 @@ p {
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 500px) { 
 
     #A-email {
 
@@ -2022,4 +2025,65 @@ p {
 
 
 
+}
+
+/* Style for the slider container */
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Style for the slider */
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Style for each testimonial slide */
+  .skewk {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100%;
+    padding: 20px;
+    text-align: center;
+    transform: skew(0deg);
+    color: #333;
+  
+  }
+  .test-testimonial{
+    display: flex;
+    flex-direction:row;
+    grid-gap:20px;
+  }
+  /* Style for the slider controls */
+  .slider-controls {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Style for the previous and next buttons */
+  #prevBtn,
+  #nextBtn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #prevBtn:hover,
+  #nextBtn:hover {
+    background-color: #555;
+  }
+  
+  /* Hide all testimonial containers except the first one */
+.testimonial-container:not(:first-child) {
+    display: none;
+}
+
+/* Apply transition for the slide effect */
+.testimonial-container {
+    transition: opacity 0.5s, transform 0.5s;
 }

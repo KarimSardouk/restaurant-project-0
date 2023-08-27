@@ -27,6 +27,7 @@
 
 a:link {
     text-decoration: none;
+    
    
 }
 a:link, a:visited{
@@ -408,7 +409,7 @@ body {
 hr.orange-line {
 
     width: 5%;
-
+    margin-left: 20px;
     /* Adjust as needed for the width of the line */
 
     height: 2px;
